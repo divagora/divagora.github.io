@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="ttl desc">
+  <title id="ttl">Multivariate flood drivers — hand-drawn illustration</title>
+  <desc id="desc">A single hand-drawn bivariate probability plot with three nested pink contours, purple sample points, rain and wave symbols on a pastel blue background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#D7EAF3"/><stop offset="0.52" stop-color="#E1F1F7"/><stop offset="1" stop-color="#CFE5F0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="49%" cy="47%" r="65%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".42"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="tiny" width="53" height="49" patternUnits="userSpaceOnUse">
+      <path d="M9 12 l4 -2 M36 28 l3 1 M24 42 l-2 -2" stroke="#78AFC7" stroke-width=".8" opacity=".16" stroke-linecap="round"/>
+      <circle cx="41" cy="7" r=".85" fill="#FFFFFF" opacity=".56"/>
+    </pattern>
+    <filter id="soft" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation=".65"/>
+    </filter>
+  </defs>
+
+  <!-- Pastel blue canvas; all illustration elements below are editable vectors. -->
+  <rect width="800" height="600" rx="13" fill="url(#bg)"/>
+  <rect width="800" height="600" rx="13" fill="url(#halo)"/>
+  <rect width="800" height="600" rx="13" fill="url(#tiny)"/>
+
+  <!-- Pale, organic pencil-shadow shapes inside the distribution -->
+  <path d="M169 497 C165 386 195 295 270 234 C327 187 392 190 458 239 C512 279 572 354 595 408 C615 479 555 505 430 510 C336 513 229 508 169 497Z" fill="#fff6fd" opacity=".74"/>
+  <path d="M170 497 C166 416 218 346 275 331 C346 306 438 350 485 410 C526 464 482 501 370 509 C299 510 219 506 170 497Z" fill="#fae4f8" opacity=".36"/>
+  <path d="M174 496 C175 465 192 427 242 411 C297 390 368 426 388 464 C400 495 343 504 174 496Z" fill="#fae2f6" opacity=".5"/>
+
+  <!-- Hand-sketched black coordinate axes -->
+  <path d="M153 504 C153 425 151 312 152 155" fill="none" stroke="#282C31" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M154 503 C288 504 503 504 659 503" fill="none" stroke="#282C31" stroke-width="7.4" stroke-linecap="round"/>
+  <path d="M136 177 Q146 157 152 146 Q162 162 171 177" fill="none" stroke="#282C31" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M647 484 Q662 496 675 504 L648 523" fill="none" stroke="#282C31" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M155 500 C300 503 510 502 658 501" fill="none" stroke="#4C5559" stroke-width="1.5" opacity=".34" stroke-linecap="round"/>
+
+  <!-- Three individually drawn, soft-magenta contours -->
+  <path d="M170 495 C163 398 206 284 280 231 C325 195 356 193 378 197 C448 200 535 299 574 372 C595 413 611 450 584 473 C550 501 486 505 401 505 C314 508 227 504 170 495" fill="none" stroke="#F2A8DB" opacity=".72" stroke-width="11" stroke-linejoin="round" stroke-linecap="round" filter="url(#soft)"/>
+  <path d="M170 495 C164 399 207 284 280 231 C325 195 356 193 378 197 C448 200 535 299 574 372 C595 413 611 450 584 473 C550 501 486 505 401 505 C314 508 227 504 170 495" fill="none" stroke="#DC48A5" stroke-width="5.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M170 495 C169 426 208 349 278 329 C345 307 416 354 460 400 C501 443 511 471 484 486 C452 507 335 507 170 495" fill="none" stroke="#F3B2DF" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" opacity=".75" filter="url(#soft)"/>
+  <path d="M170 495 C169 426 208 349 278 329 C345 307 416 354 460 400 C501 443 511 471 484 486 C452 507 335 507 170 495" fill="none" stroke="#E05AAF" stroke-width="5.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M171 495 C172 461 197 429 241 411 C293 394 346 427 380 461 C391 477 389 487 366 495 C321 505 253 502 171 495" fill="none" stroke="#F7BFDF" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" filter="url(#soft)"/>
+  <path d="M171 495 C172 461 197 429 241 411 C293 394 346 427 380 461 C391 477 389 487 366 495 C321 505 253 502 171 495" fill="none" stroke="#E261B1" stroke-width="5.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Experimental samples: subtly irregular hand-drawn purple dots -->
+  <g fill="#9252BD" stroke="#8C53BD" stroke-width=".8" stroke-linejoin="round">
+    <path d="M194 478 q0 -9 9 -10 q11 3 9 13 q-3 8 -11 8 q-8 -2 -7 -11Z"/>
+    <path d="M237 461 q-2 -10 8 -12 q10 1 10 11 q-2 8 -10 9 q-8 0 -8 -8Z"/>
+    <path d="M282 478 q-1 -9 8 -11 q12 1 10 11 q-2 9 -10 8 q-7 -1 -8 -8Z"/>
+    <path d="M325 451 q-2 -7 6 -9 q8 -1 10 7 q1 9 -8 10 q-7 0 -8 -8Z"/>
+    <path d="M221 426 q-1 -7 7 -8 q8 0 8 8 q-1 8 -8 8 q-8 -2 -7 -8Z"/>
+    <path d="M269 430 q-2 -9 7 -10 q10 0 10 9 q0 9 -9 9 q-8 -1 -8 -8Z"/>
+    <path d="M310 409 q-2 -8 7 -10 q11 0 10 11 q-3 8 -10 8 q-8 -1 -7 -9Z"/>
+    <path d="M360 442 q-2 -9 7 -10 q9 0 10 10 q0 8 -8 10 q-8 -1 -9 -10Z"/>
+    <path d="M395 416 q-3 -8 7 -12 q10 0 11 9 q1 9 -9 10 q-8 0 -9 -7Z"/>
+    <path d="M249 373 q-2 -10 7 -12 q9 1 10 9 q0 10 -9 10 q-7 1 -8 -7Z"/>
+    <path d="M298 361 q-2 -9 6 -11 q10 -1 11 8 q0 9 -8 11 q-7 1 -9 -8Z"/>
+    <path d="M345 382 q-3 -9 6 -10 q9 -2 11 7 q1 9 -8 10 q-8 0 -9 -7Z"/>
+    <path d="M389 352 q-2 -9 7 -10 q9 0 10 9 q0 9 -9 10 q-8 -1 -8 -9Z"/>
+    <path d="M433 383 q-2 -9 7 -10 q10 0 10 9 q0 9 -9 10 q-8 -1 -8 -9Z"/>
+    <path d="M467 422 q-2 -8 6 -10 q10 -1 11 9 q0 8 -9 10 q-7 0 -8 -9Z"/>
+    <path d="M337 316 q-3 -8 6 -11 q9 -1 11 9 q0 9 -9 10 q-7 0 -8 -8Z"/>
+    <path d="M385 294 q-2 -9 8 -11 q10 1 10 10 q-1 9 -10 9 q-8 0 -8 -8Z"/>
+    <path d="M433 317 q-3 -9 6 -11 q10 0 11 9 q0 9 -9 11 q-7 -1 -8 -9Z"/>
+    <path d="M470 339 q-3 -8 6 -11 q9 -1 11 9 q0 9 -10 9 q-7 0 -7 -7Z"/>
+    <path d="M414 253 q-2 -8 6 -10 q9 -2 11 8 q0 9 -8 10 q-8 1 -9 -8Z"/>
+    <path d="M478 289 q-2 -8 7 -10 q9 -1 10 8 q0 9 -8 10 q-8 0 -9 -8Z"/>
+    <path d="M523 363 q-2 -9 7 -10 q10 0 10 9 q0 9 -9 10 q-8 0 -8 -9Z"/>
+    <path d="M551 416 q-3 -8 7 -10 q9 0 10 9 q-1 9 -9 9 q-7 0 -8 -8Z"/>
+  </g>
+  <!-- Small colored pencil shine on a few samples -->
+  <g fill="#BA8BDB" opacity=".62">
+    <circle cx="198" cy="473" r="2.7"/><circle cx="302" cy="354" r="2"/><circle cx="391" cy="289" r="2.6"/><circle cx="472" cy="334" r="2"/><circle cx="244" cy="455" r="2.2"/>
+  </g>
+
+  <!-- Rainfall icon outside the chart, in the same imperfect ink style -->
+  <g stroke="#33383A" stroke-width="4.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M91 123 C77 124 73 113 76 104 C78 94 87 92 95 94 C91 80 102 68 113 71 C123 73 130 83 128 91 C137 86 147 89 151 97 C159 113 145 124 132 124 Z"/>
+    <path d="M87 140 l-8 14 M109 141 l-8 14 M131 140 l-8 14 M97 158 l-7 12 M119 159 l-6 13" stroke-width="3.7"/>
+  </g>
+  <path d="M88 141 L81 152 M130 141 L124 153" stroke="#94C7DB" stroke-width="3.4" opacity=".85" stroke-linecap="round"/>
+
+  <!-- Wave and water icon near the horizontal axis -->
+  <path d="M691 533 Q707 525 714 515 C726 500 738 496 742 502 C751 489 760 495 767 506 C770 515 766 524 759 527 Q751 533 745 526" fill="none" stroke="#31373A" stroke-width="4.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M694 539 Q715 546 736 536 C749 532 756 539 768 533" fill="none" stroke="#93C8DE" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+
+  <!-- A few dry-pencil accents for the human-drawn feel -->
+  <g fill="none" stroke="#e68ac9" stroke-linecap="round" opacity=".36" stroke-width="1.5">
+    <path d="M187 394 q16 -59 38 -88"/><path d="M396 204 q43 17 66 47"/><path d="M480 488 q35 -9 51 -20"/>
+  </g>
+</svg>

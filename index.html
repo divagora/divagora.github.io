@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#F8F9F7" />
+  <meta name="description" content="Dina Gómez Rave, hydrologist and Research Associate at Imperial College London. Compound flooding, hydroclimatic extremes and participatory hydrology." />
+  <title>Dina Gómez Rave · Hydrology and flood research</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="content.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#about" data-name></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ABOUT -->
+    <section class="intro wrap" id="about" aria-labelledby="name">
+      <aside class="profile">
+        <figure class="gauge">
+          <div class="gauge-scale" aria-hidden="true">
+            <span style="top:0%">2.0</span>
+            <span style="top:25%">1.5</span>
+            <span style="top:50%">1.0</span>
+            <span style="top:75%">0.5</span>
+          </div>
+          <div class="gauge-levels" aria-hidden="true"><i></i><i></i><i></i></div>
+          <img id="portrait" src="assets/portrait-placeholder.svg" alt="" width="600" height="750" />
+        </figure>
+        <ul class="profile-links" id="profile-links"></ul>
+      </aside>
+
+      <div class="intro-text">
+        <h1 id="name" data-name></h1>
+        <p class="role" id="role"></p>
+        <div class="bio" id="bio"></div>
+
+        <div class="facts">
+          <details class="fact">
+            <summary class="facts-title">Interests</summary>
+            <ul class="interest-list" id="interests"></ul>
+          </details>
+          <details class="fact">
+            <summary class="facts-title">Education</summary>
+            <ol class="edu-list" id="education"></ol>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="block" id="research" aria-labelledby="research-title">
+      <div class="wrap block-grid">
+        <h2 class="block-title" id="research-title">Research</h2>
+        <div class="block-body">
+          <p class="lede" id="research-intro"></p>
+          <div class="themes" id="themes"></div>
+          <div class="project" id="project" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="block" id="publications" aria-labelledby="pubs-title">
+      <div class="wrap block-grid">
+        <h2 class="block-title" id="pubs-title">Publications</h2>
+        <div class="block-body">
+          <div class="pubs" id="pubs"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GREEN BAND: personal note (folded) + contact -->
+    <section class="places" id="contact" aria-label="A personal note and contact">
+      <div class="wrap">
+
+        <details class="wander" id="personal">
+          <summary class="wander-summary">
+            <span class="wander-head">
+              <span class="wander-title" id="personal-title">A Personal Note</span>
+              <span class="wander-sub" id="personal-sub">How I see research</span>
+            </span>
+            <span class="wander-toggle" aria-hidden="true"><i></i></span>
+          </summary>
+
+          <div class="wander-body">
+            <div class="personal">
+              <figure class="personal-fig">
+                <img id="personal-photo" alt="" loading="lazy" />
+                <figcaption id="personal-caption"></figcaption>
+              </figure>
+              <div class="personal-text" id="personal-text"></div>
+            </div>
+          </div>
+        </details>
+
+        <div class="contact-green">
+          <h2 class="block-title" id="contact-title">Get in touch</h2>
+          <div>
+            <p class="contact-address" id="contact-address"></p>
+            <ul class="contact-links" id="contact-links"></ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span id="footer-copy"></span>
+      <a href="#about">Back to top</a>
+    </div>
+  </footer>
+
+</body>
+</html>

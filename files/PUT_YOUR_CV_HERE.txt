@@ -1,0 +1,2 @@
+Optional: put a PUBLIC version of your CV here (no home address, phone number or date of birth),
+e.g. Gomez-Rave_CV.pdf, and set cvFile: "files/Gomez-Rave_CV.pdf" in content.js.
