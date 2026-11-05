@@ -34,13 +34,15 @@ window.SITE_CONTENT = {
 ],
 
     interests: [
-      "Compound flooding",
-      "Hydroclimatic extremes",
-      "Early-warning systems",
-      "Participatory monitoring and citizen science",
-      "Statistical and hydrodynamic modelling",
-      "Disaster risk reduction"
-    ],
+  "Compound hazards",
+  "Hydroclimatic extremes",
+  "Multivariate statistical modelling",
+  "Flood hazard and impact modelling",
+  "Early warning systems",
+  "Citizen science and community-based monitoring",
+  "Local knowledge",
+  "Disaster risk reduction"
+],
 
     // Public contact details. Leave "" to hide.
     // Use a work or public email, never a private one you don't want online.
