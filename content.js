@@ -50,7 +50,7 @@ window.SITE_CONTENT = {
       orcid: "https://orcid.org/0000-0002-9446-4177",
       linkedin: "https://www.linkedin.com/in/dvgrave/",
       researchgate: "",
-      github: "https://github.com/divagora/,
+      github: "https://github.com/divagora/"
     },
 
     // A public version of your CV (without home address, phone or date of birth).
