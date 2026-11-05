@@ -44,13 +44,13 @@ window.SITE_CONTENT = {
 
     // Public contact details. Leave "" to hide.
     // Use a work or public email, never a private one you don't want online.
-    publicEmail: "",
+    publicEmail: "d.gomezrave@imperial.ac.uc",
     links: {
       scholar: "",
       orcid: "https://orcid.org/0000-0002-9446-4177",
       linkedin: "https://www.linkedin.com/in/dvgrave/",
       researchgate: "",
-      github: "https://github.com/divagora/"
+      github: "https://github.com/divagora/,
     },
 
     // A public version of your CV (without home address, phone or date of birth).
