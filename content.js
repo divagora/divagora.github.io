@@ -24,7 +24,7 @@ window.SITE_CONTENT = {
 
     // Your portrait: copy it into the photos folder and change the path,
     // for example "photos/portrait.jpg"
-    photo: "photos/DINA_1.JPG",
+    photo: "photos/DINA_1.jpg",
     photoAlt: "Portrait of Dina Gómez Rave",
 
     // Paragraphs of your biography (each "..." is one paragraph)
