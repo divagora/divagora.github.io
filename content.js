@@ -231,21 +231,6 @@ window.SITE_CONTENT = {
     },
     {
       year: "2025",
-      type: "Journal article (in Spanish)",
-      authors: "Gomez-Rave, D.V., Urrea-Méndez, D.A., del Jesus, M.",
-      title: "Inundación compuesta en el estuario de Santoña: umbrales bivariados y su aplicación en alertas tempranas",
-      venue: "Ingeniería del Agua",
-      details: "29(2), 73–89",
-      doi: "https://doi.org/10.4995/ia.2025.23025",
-      pdf: "",
-      image: "assets/pubs/pub-santona.svg",
-      imageAlt: {
-        en: "Stylised Santoña estuary with marsh channels and a three-level alert gauge",
-        es: "Estuario de Santoña estilizado, con canales de marisma y una regla de alerta de tres niveles"
-      }
-    },
-    {
-      year: "2025",
       type: "Journal article",
       authors: "Gomez-Rave, D.V., Scolobig, A., del Jesus, M.",
       title: "Rethinking preparedness for coastal compound flooding: insights from a systematic review",
@@ -260,6 +245,21 @@ window.SITE_CONTENT = {
       }
     }
   ],
+    {
+      year: "2025",
+      type: "Journal article (in Spanish)",
+      authors: "Gomez-Rave, D.V., Urrea-Méndez, D.A., del Jesus, M.",
+      title: "Inundación compuesta en el estuario de Santoña: umbrales bivariados y su aplicación en alertas tempranas",
+      venue: "Ingeniería del Agua",
+      details: "29(2), 73–89",
+      doi: "https://doi.org/10.4995/ia.2025.23025",
+      pdf: "",
+      image: "assets/pubs/pub-santona.svg",
+      imageAlt: {
+        en: "Stylised Santoña estuary with marsh channels and a three-level alert gauge",
+        es: "Estuario de Santoña estilizado, con canales de marisma y una regla de alerta de tres niveles"
+      }
+    },
 
   /* ---------- COLLABORATIONS ----------
      Papers you co-authored. They appear in a compact list under your
