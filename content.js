@@ -259,7 +259,7 @@ window.SITE_CONTENT = {
         en: "Stylised Santoña estuary with marsh channels and a three-level alert gauge",
         es: "Estuario de Santoña estilizado, con canales de marisma y una regla de alerta de tres niveles"
       }
-    },
+    }
   ],
 
   /* ---------- COLLABORATIONS ----------
