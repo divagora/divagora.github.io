@@ -12,17 +12,21 @@
   <script src="site.js" defer></script>
 </head>
 <body data-page="home">
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
 
   <header class="topbar">
     <div class="wrap topbar-inner">
       <a class="brand" href="#about" data-name></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="site-nav" id="site-nav" aria-label="Main">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#research" data-i18n="navResearch">Research</a>
+        <a href="#publications" data-i18n="navPublications">Publications</a>
       </nav>
+      <div class="lang-switch" role="group" aria-label="Language / Idioma">
+        <button type="button" data-lang="en" lang="en" aria-label="English">EN</button>
+        <button type="button" data-lang="es" lang="es" aria-label="Español">ES</button>
+      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-i18n="menu">Menu</button>
     </div>
   </header>
 
@@ -51,11 +55,11 @@
 
         <div class="facts">
           <details class="fact">
-            <summary class="facts-title">Interests</summary>
+            <summary class="facts-title" data-i18n="interests">Interests</summary>
             <ul class="interest-list" id="interests"></ul>
           </details>
           <details class="fact">
-            <summary class="facts-title">Education</summary>
+            <summary class="facts-title" data-i18n="education">Education</summary>
             <ol class="edu-list" id="education"></ol>
           </details>
         </div>
@@ -65,7 +69,7 @@
     <!-- RESEARCH -->
     <section class="block" id="research" aria-labelledby="research-title">
       <div class="wrap block-grid">
-        <h2 class="block-title" id="research-title">Research</h2>
+        <h2 class="block-title" id="research-title" data-i18n="navResearch">Research</h2>
         <div class="block-body">
           <p class="lede" id="research-intro"></p>
           <div class="themes" id="themes"></div>
@@ -77,7 +81,7 @@
     <!-- PUBLICATIONS -->
     <section class="block" id="publications" aria-labelledby="pubs-title">
       <div class="wrap block-grid">
-        <h2 class="block-title" id="pubs-title">Publications</h2>
+        <h2 class="block-title" id="pubs-title" data-i18n="navPublications">Publications</h2>
         <div class="block-body">
           <div class="pubs" id="pubs"></div>
         </div>
@@ -85,16 +89,20 @@
     </section>
 
     <!-- GREEN BAND: personal note (folded) + contact -->
-    <section class="places" id="contact" aria-label="A personal note and contact">
+    <section class="places" id="contact" aria-labelledby="contact-title">
       <div class="wrap">
 
         <details class="wander" id="personal">
           <summary class="wander-summary">
             <span class="wander-head">
-              <span class="wander-title" id="personal-title">A Personal Note</span>
-              <span class="wander-sub" id="personal-sub">How I see research</span>
+              <span class="wander-title" id="personal-title"></span>
+              <span class="wander-sub" id="personal-sub"></span>
             </span>
-            <span class="wander-toggle" aria-hidden="true"><i></i></span>
+            <span class="wander-toggle" aria-hidden="true">
+              <span class="wt-closed" data-i18n="read">Read</span>
+              <span class="wt-open" data-i18n="foldAway">Fold away</span>
+              <i></i>
+            </span>
           </summary>
 
           <div class="wander-body">
@@ -109,7 +117,7 @@
         </details>
 
         <div class="contact-green">
-          <h2 class="block-title" id="contact-title">Get in touch</h2>
+          <h2 class="block-title" id="contact-title" data-i18n="contact">Get in touch</h2>
           <div>
             <p class="contact-address" id="contact-address"></p>
             <ul class="contact-links" id="contact-links"></ul>
@@ -124,7 +132,7 @@
   <footer class="footer">
     <div class="wrap footer-inner">
       <span id="footer-copy"></span>
-      <a href="#about">Back to top</a>
+      <a href="#about" data-i18n="backToTop">Back to top</a>
     </div>
   </footer>
 
