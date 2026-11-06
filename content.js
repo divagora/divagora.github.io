@@ -16,7 +16,7 @@ window.SITE_CONTENT = {
 
   /* ---------- PROFILE ---------- */
   profile: {
-    name: "Dina Gómez Rave",
+    name: "Dina Vanessa Gómez Rave",
     role: "Research Associate",
     department: "Department of Civil and Environmental Engineering",
     institution: "Imperial College London",
@@ -46,7 +46,7 @@ window.SITE_CONTENT = {
 
     // Public contact details. Leave "" to hide.
     // Use a work or public email, never a private one you don't want online.
-    publicEmail: "d.gomezrave@imperial.ac.uc",
+    publicEmail: "d.gomezrave@imperial.ac.uk",
     links: {
       scholar: "",
       orcid: "https://orcid.org/0000-0002-9446-4177",
