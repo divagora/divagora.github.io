@@ -157,6 +157,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   line-height: 1.04;
   letter-spacing: -0.018em;
   font-weight: 400;
+   white-space: nowrap;
 }
 .role {
   margin-top: 18px;
