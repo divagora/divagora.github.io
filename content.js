@@ -39,8 +39,8 @@ window.SITE_CONTENT = {
         "Previously, I was at IHCantabria (Spain), where I completed my PhD on compound flooding in estuaries, combining statistical and hydrodynamic modelling. My earlier experience includes academic roles at the University of Antioquia and consultancy work in Colombia."
       ],
       es: [
-        "Soy ingeniera civil e hidróloga, interesada en las inundaciones, los extremos hidroclimáticos y sus impactos en las comunidades. Mi investigación actual con el Prof. Wouter Buytaert se centra en integrar el conocimiento local y los datos generados por las comunidades en modelos hidrológicos globales.",
-        "Antes estuve en IHCantabria (España), donde hice mi doctorado sobre inundación compuesta en estuarios, combinando modelación estadística e hidrodinámica. Mi experiencia previa incluye docencia en la Universidad de Antioquia y consultoría en Colombia."
+        "Soy ingeniera civil e hidróloga, interesada en las inundaciones, los extremos hidroclimáticos y sus impactos en las comunidades. Actualmente trabajo en Imperial College London con el profesor Wouter Buytaert, explorando cómo integrar el conocimiento local y las observaciones comunitarias en modelos hidrológicos globales.",
+        "Anteriormente trabajé en IHCantabria (España), donde realicé mi doctorado sobre inundaciones compuestas en estuarios, combinando modelización estadística e hidrodinámica. En Colombia, mi experiencia profesional transcurrió entre la enseñanza universitaria en la Universidad de Antioquia y la consultoría en ingeniería."
       ]
     },
 
