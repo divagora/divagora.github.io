@@ -244,7 +244,7 @@ window.SITE_CONTENT = {
         es: "Embudo de selección de una revisión sistemática que lleva a 49 estudios agrupados por tema"
       }
     }
-  ],
+
     {
       year: "2025",
       type: "Journal article (in Spanish)",
@@ -260,6 +260,7 @@ window.SITE_CONTENT = {
         es: "Estuario de Santoña estilizado, con canales de marisma y una regla de alerta de tres niveles"
       }
     },
+  ],
 
   /* ---------- COLLABORATIONS ----------
      Papers you co-authored. They appear in a compact list under your
