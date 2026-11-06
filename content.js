@@ -243,7 +243,7 @@ window.SITE_CONTENT = {
         en: "Screening funnel of a systematic review leading to 49 studies grouped by theme",
         es: "Embudo de selección de una revisión sistemática que lleva a 49 estudios agrupados por tema"
       }
-    }
+    },
 
     {
       year: "2025",
