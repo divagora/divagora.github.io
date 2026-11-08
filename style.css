@@ -206,8 +206,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   font-size: 1.22rem;
   line-height: 1.6;
   max-width: 64ch;
-  text-align: justify;
-  hyphens: auto;
+  text-align: left;
+  hyphens: none;
 }
 .bio p + p { margin-top: 0.9em; }
 
