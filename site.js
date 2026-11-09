@@ -106,6 +106,22 @@
     });
   }
 
+
+function openPersonalFromHash() {
+  if (location.hash !== "#personal") return;
+  var d = $("personal");
+  if (!d) return;
+  d.open = true;
+  setTimeout(function () { d.scrollIntoView({ behavior: "smooth", block: "start" }); }, 30);
+}
+window.addEventListener("hashchange", openPersonalFromHash);
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest('a[href="#personal"]');
+  if (a && location.hash === "#personal") openPersonalFromHash();
+});
+openPersonalFromHash();
+
+  
   /* Author list with your own name in bold */
   function authorLine(text) {
     var authors = el("p", "pub-authors");
